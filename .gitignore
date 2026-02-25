@@ -1,12 +1,22 @@
+# ROS build files
 build/
 install/
 log/
 
-*.pyc
+# Python
 __pycache__/
-*.so
+*.pyc
 
+# Linux
+*.swp
+*.swo
+*~
+
+# VSCode
 .vscode/
-.idea/
 
-*.db
+# Maps (optional: include if you want)
+# maps/
+
+# RViz configs
+*.rviz
