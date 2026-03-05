@@ -28,7 +28,7 @@ def generate_launch_description():
 
             'use_sim_time': 'false',
 
-            'map': '/home/saumya/healthcare_robot_ws/maps/hospital_map.yaml'
+            'map': '/home/saumya/healthcare_robot_ws/maps/test_map.yaml'
 
         }.items()
 

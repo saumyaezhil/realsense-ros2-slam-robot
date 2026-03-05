@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+        	'motor_bridge = healthcare_motor_interface.motor_bridge:main',
         ],
     },
 )
